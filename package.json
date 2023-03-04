@@ -4,7 +4,8 @@
   "description": "Forma gest est une plateforme qui répertorie la liste des formations de ses organismes partenaires.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js",
+    "db:init": "node ./src/data/seeding.js"
   },
   "author": "",
   "license": "ISC",
